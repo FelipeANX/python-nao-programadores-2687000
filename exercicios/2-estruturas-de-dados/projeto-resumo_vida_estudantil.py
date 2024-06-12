@@ -13,6 +13,5 @@ estudante ['formacao'] = int(input('Qual ano da sua formação? '))
 estudante ['materias'] = materias.split(', ')
 
 # 3. Imprima na tela uma string com as informações de nome, ano_conheceu_linkedin, total de anos transcurridos, total de cursos realizados e (apenas) o primeiro e último curso.
-print(estudante.values(materias))
 
 print(f"Oi, {estudante['nome']}, já estamos em {estudante['ano_atual']} e fazem {estudante['ano_atual']-estudante['formacao']} anos que você se formou no curso de {estudante['curso']}. Nos {estudante['formacao']-estudante['ano_faculdade']} anos de curso você gostou muito de ter feito as matérias de {estudante['materias']}! Mas a favorita foi {estudante['materias'][0]}. Já parou para pensar no motivo dessa escolha?")
