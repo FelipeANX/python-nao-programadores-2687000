@@ -1,8 +1,12 @@
 # Declare 4 variáveis do tipo numérica
-
+x = 14
+y = 140
+w = 28
+z = 360
 
 # Crie uma estrutura condicional para comparar dois números
-
+if (x==(y/10)):
+  print(f'A condição é verdadeira, {y} é 10 vezes maior do que {x}!')
 
 # Se a condição for verdadeira, imprima na tela uma mensagem informando que a condição foi cumprida e informando o número de maior valor
 
