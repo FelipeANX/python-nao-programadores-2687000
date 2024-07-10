@@ -16,5 +16,5 @@ print(pessoa.values())
 print(pessoa.keys())
 
 # Insira um novo par chave-valor no dicionário
-pessoa['Formação'] = "Analsia de dados"
+pessoa['Formação'] = "Analista de dados"
 print (pessoa)
